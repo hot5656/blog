@@ -19,6 +19,13 @@ git checkout -b backup
 git add .
 ```
 
+### 加入全部異動檔案
+不論檔案狀態是 Untracked files 或是 Changes not staged for commit（紅色），都會一口氣變成 Changes to be committed（綠色）
+``` bash
+git add -A
+git add --all 
+```
+
 ### and commit
 ``` bash
 git commit -m "1st commit"
