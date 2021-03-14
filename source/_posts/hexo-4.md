@@ -1,0 +1,40 @@
+---
+title: hexo 備份
+date: 2021-03-14 15:24:03
+tags:
+---
+
+### git init
+``` bash
+cd blog
+git init
+```
+
+### 建立新分支 backup
+``` bash
+git checkout -b backup
+```
+
+### hexo 本身已建立 .gitignore
+``` bash
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+```
+
+### add file and commit
+``` bash
+git add .
+git commit -m "1st commit"
+```
+
+### push to remote 
+``` bash
+git remote add origin git@hot5656.com:hot5656/blog.git
+
+```
+
