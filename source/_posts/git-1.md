@@ -1,7 +1,8 @@
 ---
 title: git 使用
 date: 2021-03-14 15:48:38
-tags:
+categories: 說明
+tags: git
 ---
 
 ### git init
@@ -12,6 +13,21 @@ git init
 ### 建立新分支 backup
 ``` bash
 git checkout -b backup
+```
+
+# see branch
+``` bash
+# see local branch
+git branch
+# see remote branch
+git branch -r
+# see local nad remote branch
+git branch -a
+```
+
+### checkout to branch
+``` bash
+git checkout backup
 ```
 
 ### add all file
@@ -29,6 +45,19 @@ git add --all
 ### and commit
 ``` bash
 git commit -m "1st commit"
+```
+
+### dump commit 紀錄
+``` bash
+git log
+```
+
+### list commit
+``` bash
+# list remote commit
+git rev-list --remotes
+# list all commit
+git rev-list –all
 ```
 
 ### add origin

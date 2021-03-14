@@ -1,7 +1,8 @@
 ---
 title: hexo http://localhost:4000 打不開 
 date: 2021-03-14 14:13:53
-tags:
+categories: issue
+tags: hexo
 ---
 
 ## port 被占用
@@ -22,6 +23,7 @@ tasklist | findstr 5976
 ``` bash
 hexo server -p 5000
 ```
+<br> <br>
 
 ##  localhost 的 http 網站被強制導向 https(edge適用)
 

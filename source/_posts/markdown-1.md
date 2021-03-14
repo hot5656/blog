@@ -1,7 +1,8 @@
 ---
 title: Language codes list
 date: 2021-03-14 09:29:15
-tags:
+categories: 說明
+tags: markdown
 ---
 
 * Bash lang-bash, lang-sh, lang-zsh

@@ -1,7 +1,8 @@
 ---
 title: Hexo 使用
 date: 2021-03-14 08:41:49
-tags:
+categories: 說明
+tags: hexo
 ---
 
 ## command
@@ -46,11 +47,11 @@ hexo generate (hexo g)
 hexo server -p 5000
 ```
 
-
 ### 部署網站
 ``` bash
 hexo deploy (hexo d)
 ```
+<br> 
 
 ## npm 安裝
 
@@ -63,6 +64,7 @@ npm install hexo-deployer-git --save
 ``` bash
 npm install hexo-image-link --save
 ```
+<br> 
 
 ``` markdown
 ![picture 1](hexo/test.png)
@@ -88,6 +90,7 @@ post_asset_folder: true
 url: https://hot5656.github.io/blog/
 root: /blog/
 ```
+<br> 
 
 ## md檔 設定
 

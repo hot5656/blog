@@ -1,7 +1,8 @@
 ---
 title: hexo 備份
 date: 2021-03-14 15:24:03
-tags:
+categories: 說明
+tags: hexo GitHub
 ---
 
 ### git init

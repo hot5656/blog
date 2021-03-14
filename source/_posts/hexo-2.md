@@ -1,16 +1,16 @@
 ---
 title: Put Hexo to GitHub(第二個)
 date: 2021-03-14 08:41:44
-tags:
+categories: 說明
+tags: hexo GitHub
 ---
 
-## 第一次使用 Heho
 
 ### 預先安裝 Git 和 Node.js
 
 ### Install Hexo
 ``` bash
-Install Hexo
+npm install -g hexo-cli
 ```
 
 ### Dump version
@@ -18,11 +18,15 @@ Install Hexo
 hexo version
 ```
 
-## 安裝單一 blog
-
 ### inition Blog
 ``` bash
 hexo init blog
+```
+
+### Install all package for Blog
+``` bash
+cd blog
+npm install
 ```
 
 ### GitHub generate a respsitory

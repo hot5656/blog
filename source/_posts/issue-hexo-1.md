@@ -1,7 +1,8 @@
 ---
 title: hexo d - "ERROR Deployer not found git"
 date: 2021-03-14 14:13:00
-tags:
+categories: issue
+tags: hexo
 ---
 
 
