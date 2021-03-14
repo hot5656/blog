@@ -34,7 +34,7 @@ git commit -m "1st commit"
 
 ### push to remote 
 ``` bash
-git remote add origin git@hot5656.com:hot5656/blog.git
-
+git remote add origin https://github.com/hot5656/blog.git
+git push -u origin backup
 ```
 
